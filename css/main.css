@@ -22,8 +22,12 @@ ul, nav {
   color: #93a1a1;
 }
 
+.wrapper > .dfn {
+  background-color: #b58900;
+}
+
 Use a child (or direct descendant) selector to get the .dfn that’s immediately inside the .wrapper (not inside anything else)
-— add background-color: #b58900;
+— add
 Use an adjacent selector to get the strong inside .dfn, the strong that starts “Botanically…”
 — add color: #fff;
 Select all the a tags, but not the a tags with the class of  .no-highlight
