@@ -18,7 +18,7 @@ ul, nav {
    background-color: #eee8d5;
  }
 
-#favs, facts, types {
+h2 {
   color: #93a1a1;
 }
 
@@ -26,16 +26,30 @@ ul, nav {
   background-color: #b58900;
 }
 
-Use a child (or direct descendant) selector to get the .dfn that’s immediately inside the .wrapper (not inside anything else)
-— add
+.dfn +  {
+  color: #fff;
+}
 Use an adjacent selector to get the strong inside .dfn, the strong that starts “Botanically…”
-— add color: #fff;
+— add
+
+a {
+  background-color: #719e07;
+}
+
 Select all the a tags, but not the a tags with the class of  .no-highlight
-— add background-color: #719e07;
+— add
+
+a rel="external">Wikipedia: Fruit {
+  background-color: #2694d8;
+}
+
 Select the link with rel="external" attribute
-— add background-color: #2694d8;
+— add
+ol li:first-child {
+  color: #719e47;
+}
 Select the first li inside the ol
-— add color: #719e47;
+— add
 Select the last li inside the ol
 — add color: #2aa198;
 Select every odd li inside .types
