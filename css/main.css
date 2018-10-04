@@ -2,16 +2,26 @@ html {
   background-color: #fdf6e3;
 }
 
-Select header and footer
-— add font-size: 1.5rem;
-Select ul inside nav
-— add font-family: sans-serif;
-Select the logo by class
-— add text-transform: uppercase;
-Select the class wrapper
-— add background-color: #eee8d5;
-Select the IDs contents, favs, facts and types
-— add color: #93a1a1;
+header, footer {
+  font-size: 1.5rem;
+}
+
+ul, nav {
+  font-family: sans-serif;
+}
+
+ .logo {
+   text-transform: uppercase;
+ }
+
+ .wrapper {
+   background-color: #eee8d5;
+ }
+
+#favs, facts, types {
+  color: #93a1a1;
+}
+
 Use a child (or direct descendant) selector to get the .dfn that’s immediately inside the .wrapper (not inside anything else)
 — add background-color: #b58900;
 Use an adjacent selector to get the strong inside .dfn, the strong that starts “Botanically…”
