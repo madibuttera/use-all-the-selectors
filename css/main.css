@@ -30,11 +30,11 @@ h2 {
   background-color: #fff;
 }
 
-ul li {
+a:not(.no-highlight) {
   background-color: #719e07;
 }
 
-.no-highlight {
+[rel="external"] {
   background-color: #2694d8;
 }
 
